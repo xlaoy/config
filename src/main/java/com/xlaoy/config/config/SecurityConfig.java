@@ -1,4 +1,4 @@
-package com.xlaoy.discovery.config;
+package com.xlaoy.config.config;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

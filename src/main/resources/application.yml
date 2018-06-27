@@ -9,6 +9,10 @@ spring:
       charset: UTF-8
       force: true
 
+# config 配置对称加密
+encrypt:
+  key: wocaofuck
+
 #打开actuator的所有端点
 management:
   endpoints:
