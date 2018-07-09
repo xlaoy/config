@@ -19,3 +19,15 @@ management:
     web:
       exposure:
         include: "*"
+
+swagger:
+  docket:
+    config:
+      title: config模块
+      base-package: org.springframework.cloud.config.server.environment
+    encryption:
+      title: encryption模块
+      base-package: org.springframework.cloud.config.server.encryption
+    system:
+      title: system模块
+      base-package: com.xlaoy

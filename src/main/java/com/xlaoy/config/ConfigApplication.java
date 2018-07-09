@@ -1,11 +1,13 @@
 package com.xlaoy.config;
 
+import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
-import org.springframework.cloud.client.SpringCloudApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @EnableConfigServer
-@SpringCloudApplication
+@EnableSwagger2Doc
+@SpringBootApplication
 public class ConfigApplication {
 
     public static void main(String[] args) {

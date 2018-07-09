@@ -9,3 +9,4 @@ spring:
           search-paths: /
           username: xlaoy
           password: zhangyijun123
+        prefix: config
