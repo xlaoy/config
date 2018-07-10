@@ -8,6 +8,12 @@ spring:
     encoding:
       charset: UTF-8
       force: true
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: xlaoy
+    password: 123456
+    virtual-host: /xlaoy
 
 # config 配置对称加密
 encrypt:
@@ -22,6 +28,9 @@ management:
 
 swagger:
   docket:
+    actuator:
+      title: actuator模块
+      base-package: org.springframework.boot.actuate.endpoint.web.servlet
     config:
       title: config模块
       base-package: org.springframework.cloud.config.server.environment
